@@ -29,7 +29,7 @@ addon_info = {
 	# Author(s)
 	"addon_author": "ashleygrobler04@gmail.com",
 	# URL for the add-on documentation support
-	"addon_url": "https://github.com/vscode-line-numbers",
+	"addon_url": "https://github.com/ashleygrobler04/vscode-line-numbers",
 	# URL for the add-on repository where the source code can be found
 	"addon_sourceURL": "https://github.com/ashleygrobler04/vscode-line-numbers",
 	# Documentation file name
