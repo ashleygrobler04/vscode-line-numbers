@@ -4,11 +4,11 @@ from scriptHandler import script
 import api
 
 class AppModule(appModuleHandler.AppModule):
-    @script(gesture="kb:NVDA+W", description="Report current line number in vscode.")
+    @script(gesture="kb:NVDA+W", description="Report current line number in vscode.",category="vscode-line-numbers")
     def script_sayLineNumber(self, gesture):
         ui.message(self.getStatusInformation("line"))
 
-    @script(gesture="kb:NVDA+SHIFT+W", description="Report current column (character in line) in vscode.")
+    @script(gesture="kb:NVDA+SHIFT+W", description="Report current column (character in line) in vscode.",category="vscode-line-numbers")
     def script_sayCol(self, gesture):
         ui.message(self.getStatusInformation("col"))
 
@@ -24,7 +24,6 @@ class AppModule(appModuleHandler.AppModule):
     def event_nameChange(self, obj, nextHandler):
         currentLine = self.getStatusInformation("line")
         if currentLine and currentLine != self.previousLine:
-            ui.message(currentLine)
+            ui.message(currentLine.lstrip("Ln "))
             self.previousLine = currentLine
         nextHandler()
-        

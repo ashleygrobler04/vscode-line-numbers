@@ -25,7 +25,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""This addon can be used to easily report the current line in vscode. You can also report the column (which character in the line you are at."""),
 	# version
-	"addon_version": "1.1",
+	"addon_version": "1.2",
 	# Author(s)
 	"addon_author": "ashleygrobler04@gmail.com",
 	# URL for the add-on documentation support
