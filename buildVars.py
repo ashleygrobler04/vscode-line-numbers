@@ -25,7 +25,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""This addon can be used to easily report the current line in vscode. You can also report the column (which character in the line you are at."""),
 	# version
-	"addon_version": "1.0",
+	"addon_version": "1.1",
 	# Author(s)
 	"addon_author": "ashleygrobler04@gmail.com",
 	# URL for the add-on documentation support
@@ -45,7 +45,7 @@ addon_info = {
 	# Add-on license such as GPL 2
 	"addon_license": "MIT",
 	# URL for the license document the ad-on is licensed under
-	"addon_licenseURL": "https://github.com/ashleygrobler04/vscode-line-numbers/LICENSE.md",
+	"addon_licenseURL": "https://github.com/ashleygrobler04/vscode-line-numbers/blob/main/LICENSE.md",
 }
 
 # Define the python files that are the sources of your add-on.
